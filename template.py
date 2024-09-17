@@ -4,24 +4,26 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s] : %(message)s :')
 
-project_name = "Chicken Disease Detection"
+project_name = "Chicken_Disease_Project"
+
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__(link unavailable)",
-    f"src/{project_name}/components/__(link unavailable)",
-    f"src/{project_name}/utils/__(link unavailable)",
-    f"src/{project_name}/config/__(link unavailable)",
-    f"src/{project_name}/config/configurations.py",
-    f"src/{project_name}/pipeline/__(link unavailable)",
-    f"src/{project_name}/entity/__(link unavailable)",
-    f"src/{project_name}/constants/__(link unavailable)",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/config/__init__.py",
+    f"src/{project_name}/config/configuration.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
     "requirements.txt",
-    "(link unavailable)",
+    "setup.py",
     "research/trials.ipynb",
-    "test.py"
+    "templates/index.html"
+
 ]
 for filepath in list_of_files:
     filepath = Path(filepath)

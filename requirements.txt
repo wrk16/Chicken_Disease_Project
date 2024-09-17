@@ -1,0 +1,17 @@
+tensorflow  # it is a deep learning library which will help us to build our deep learning model 
+numpy
+pandas
+dvc  # (data version control) will help us version our data and model files and also help us to track the changes in the data and model files 
+notebook  # will help us to run jupyter notebook
+matplotlib  
+seaborn
+python-box==6.0.2  # will help us to convert dictionary to object and vice versa
+pyYAML  # will help us to read and write YAML( Yet Another Markup Language) files 
+tqdm  # (taqaddum) will help us to show the progress bar 
+ensure==1.0.2   # will help us to ensure the version of the package  
+joblib  # will help us to save the model 
+types-PyYAML    # will help us to install the type of PyYAML 
+scipy   # will help us to perform scientific and technical computing
+Flask   # will help us to create the API  
+Flask-Cors    # will help us to enable the CORS (Cross-Origin Resource Sharing) in the API
+-e .  # this is becoz of setup.py as setup.py will help us install src as local package
